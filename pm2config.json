@@ -1,0 +1,32 @@
+[{
+  "name":"bounce-server",
+  "bounce":true,
+  "script":"/var/www/bounce/bounce.js",
+  "args":["80"]
+},{
+  "name":"404-server",
+  "bounce":true,
+  "script":"/var/www/404/app.js",
+  "args":["3000"]
+},{
+  "name":"danheidel.net",
+  "bounce":true,
+  "script":"/var/www/danheidel.net/app.js",
+  "urls":["danheidel.net","www.danheidel.net"],
+  "args":["3001"]
+},{
+  "name":"ourstupiduniverse.net",
+  "bounce":true,
+  "script":"/var/www/ourstupiduniverse.net/app.js",
+  "urls":["ourstupiduniverse.net","www.ourstupiduniverse.net"],
+  "args":["3002"]
+},{
+  "name":"scratch-server",
+  "bounce":true,
+  "script":"/var/www/scratchserver/app.js",
+  "urls":["198.199.106.210"],
+  "args":["3003"]
+},{
+  "name":"subbable",
+  "script":"/root/subbable-scrape/test.js"
+}]
